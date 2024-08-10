@@ -6,6 +6,6 @@ import { Interview } from './Interview.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Interview />
+    <App/>
   </React.StrictMode>,
 )
