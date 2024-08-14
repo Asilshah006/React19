@@ -1,5 +1,6 @@
 export const ListItems = (props)=>{
 
+    const {key,img_url,name,rating,description,cast,genre,watch_url} = props.curElem;
     return(
         <li key={props.key}>
             <img src={props.curElem.img_url} alt={props.curElem.name} width= "40%" height= "40%"/>
