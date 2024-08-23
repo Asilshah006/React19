@@ -1,0 +1,22 @@
+.card-heading{
+    padding: 3.2rem 0 ;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card:hover{
+    scale: 1.01;
+}
+
+.card-content{
+    padding: 3.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

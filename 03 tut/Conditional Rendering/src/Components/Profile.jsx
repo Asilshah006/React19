@@ -28,6 +28,7 @@ const Profile = () =>{
 
 export default Profile
 
+// eslint-disable-next-line react/prop-types
 const ProfieCard = ({name, age, greeting,children})=>{
     return(
     <>

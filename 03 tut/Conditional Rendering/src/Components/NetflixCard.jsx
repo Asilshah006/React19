@@ -13,7 +13,7 @@ import { ListItems } from "./ListItems"
 const NetflixCard = ()=>{
        
    return(
-     <ul>
+     <ul className="grid grid_three_cols">
         {data.map((curElem) => (
             <ListItems key={curElem.id} curElem = {curElem}/>
         ))}

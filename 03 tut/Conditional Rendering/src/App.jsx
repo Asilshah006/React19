@@ -1,13 +1,14 @@
 import NetflixCard from "./Components/NetflixCard"
-import Profile from "./Components/Profile"
-
+// import Profile from "./Components/Profile"
+import './Components/Netflix.css'
 const App = ()=>{
   
   return(
-    <>
-    {/* <NetflixCard/> */}
-    <Profile/>
-    </>
+    <section className="container">
+      <h1 className="card-heading">List of best Netflix Series</h1>
+    <NetflixCard/>
+    {/* <Profile/> */}
+    </section>
   )
 }
 
