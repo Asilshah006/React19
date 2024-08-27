@@ -18,10 +18,13 @@ ul{
   list-style: none;
 }
 
+p{
+  font-size: 14px;
+}
+
 
 .container{
   max-width: 140rem;
- 
   margin: 0 auto;
   padding: 9.6rem 2.4rem;
 }

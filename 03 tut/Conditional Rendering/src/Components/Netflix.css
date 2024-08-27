@@ -20,3 +20,17 @@ img{
     width: 100%;
     height: auto;
 }
+
+.super-hit{
+    background-color: #7cdeaf;
+}
+
+.average{
+    background-color: rgba(248, 248, 50, 0.973);
+}
+
+.rating{
+    padding: 0.3rem 1.8rem;
+    margin: 0 0.5rem;
+    border-radius: 30px;
+}
